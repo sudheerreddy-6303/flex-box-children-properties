@@ -1,0 +1,73 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    box-sizing: border-box;
+    
+}
+.container{
+    background-image: url(https://assets.nicepagecdn.com/d2cc3eaa/118800/images/7897-min.jpg);
+    height: 100vh;
+    
+    
+}
+.parent{
+    
+    display: flex;
+    height: 130vh;
+    margin-left: 150px;
+    margin-right: 150px;
+    /* border: solid; */
+    
+   
+}
+.item{
+    width: 262px;
+    background-color: white;
+}
+h1{
+    margin-bottom: 15px;
+    margin-top: 10px;
+}
+
+.item1{
+    align-self: flex-end;
+    /* border: solid; */
+    height: 40vh;
+    /* line-height: 200px; */
+    margin-right: 50px;
+    background-color: white;
+    
+    
+    
+}
+.item2{
+    height:40vh;
+    align-self: flex-end;
+    /* border: solid; */
+    margin-bottom: 100px;
+    
+    
+    
+}
+.item3{
+    align-self: flex-end;
+    /* border: solid; */
+   height: 40vh;
+    
+    margin-right: 50px;
+    margin-left: 50px;
+}
+.item4{
+    height:40vh;
+    align-self: flex-end;
+    /* border: solid; */
+    margin-bottom: 100px;
+    
+ 
+}
+.hi{
+    height: 150vh;
+    background-color: aquamarine;
+}
